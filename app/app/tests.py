@@ -11,7 +11,6 @@ from app import calc
 class CalcTests(SimpleTestCase):
     """Tests for calc.py"""
 
-
     def test_add_numbers(self):
         """Test adding numbers together"""
         res = calc.add(10, 5)
